@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4912A8CB283CD48C00DD6D16 /* DesignoCare_Intelligent_ThermometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A8CA283CD48C00DD6D16 /* DesignoCare_Intelligent_ThermometerApp.swift */; };
+		4912A8CF283CD48F00DD6D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4912A8CE283CD48F00DD6D16 /* Assets.xcassets */; };
+		4912A8D2283CD48F00DD6D16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4912A8D1283CD48F00DD6D16 /* Preview Assets.xcassets */; };
+		4912A8DC283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A8DB283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerTests.swift */; };
+		4912A8E6283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A8E5283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITests.swift */; };
+		4912A8E8283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A8E7283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift */; };
+		499A05FE283E77CA00E45BF4 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 499A05FD283E77CA00E45BF4 /* landmarkData.json */; };
+		499A0603283E791A00E45BF4 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499A0602283E791A00E45BF4 /* LandmarkRow.swift */; };
+		49B09D69283E734B00CDDD9B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B09D68283E734B00CDDD9B /* Landmark.swift */; };
+		49B09D6B283E75BE00CDDD9B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B09D6A283E75BE00CDDD9B /* ModelData.swift */; };
+		49B09D6D283E766F00CDDD9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B09D6C283E766F00CDDD9B /* ContentView.swift */; };
+		49D756092841D44D00347E39 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D756082841D44D00347E39 /* LandmarkDetail.swift */; };
+		49D9096C283E35A70006E5BD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9096B283E35A70006E5BD /* CircleImage.swift */; };
+		49D9096E283E522C0006E5BD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9096D283E522C0006E5BD /* MapView.swift */; };
+		49F420BE283F5463004AE9E3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F420BD283F5463004AE9E3 /* LandmarkList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4912A8D8283CD48F00DD6D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4912A8BF283CD48C00DD6D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4912A8C6283CD48C00DD6D16;
+			remoteInfo = "DesignoCare Intelligent Thermometer";
+		};
+		4912A8E2283CD48F00DD6D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4912A8BF283CD48C00DD6D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4912A8C6283CD48C00DD6D16;
+			remoteInfo = "DesignoCare Intelligent Thermometer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4912A8C7283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignoCare Intelligent Thermometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4912A8CA283CD48C00DD6D16 /* DesignoCare_Intelligent_ThermometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignoCare_Intelligent_ThermometerApp.swift; sourceTree = "<group>"; };
+		4912A8CE283CD48F00DD6D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4912A8D1283CD48F00DD6D16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4912A8D7283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignoCare Intelligent ThermometerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4912A8DB283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignoCare_Intelligent_ThermometerTests.swift; sourceTree = "<group>"; };
+		4912A8E1283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignoCare Intelligent ThermometerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4912A8E5283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignoCare_Intelligent_ThermometerUITests.swift; sourceTree = "<group>"; };
+		4912A8E7283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		499A05FD283E77CA00E45BF4 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		499A0602283E791A00E45BF4 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		49B09D68283E734B00CDDD9B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		49B09D6A283E75BE00CDDD9B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		49B09D6C283E766F00CDDD9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49D756082841D44D00347E39 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		49D9096B283E35A70006E5BD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		49D9096D283E522C0006E5BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		49F420BD283F5463004AE9E3 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4912A8C4283CD48C00DD6D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8D4283CD48F00DD6D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8DE283CD48F00DD6D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4912A8BE283CD48C00DD6D16 = {
+			isa = PBXGroup;
+			children = (
+				4912A8C9283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */,
+				4912A8DA283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests */,
+				4912A8E4283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests */,
+				4912A8C8283CD48C00DD6D16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4912A8C8283CD48C00DD6D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4912A8C7283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer.app */,
+				4912A8D7283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests.xctest */,
+				4912A8E1283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4912A8C9283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */ = {
+			isa = PBXGroup;
+			children = (
+				499A0601283E78D700E45BF4 /* Resources */,
+				4912A8CA283CD48C00DD6D16 /* DesignoCare_Intelligent_ThermometerApp.swift */,
+				499A05FF283E789100E45BF4 /* Views */,
+				499A0600283E78B900E45BF4 /* Models */,
+				4912A8CE283CD48F00DD6D16 /* Assets.xcassets */,
+				4912A8D0283CD48F00DD6D16 /* Preview Content */,
+			);
+			path = "DesignoCare Intelligent Thermometer";
+			sourceTree = "<group>";
+		};
+		4912A8D0283CD48F00DD6D16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4912A8D1283CD48F00DD6D16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4912A8DA283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4912A8DB283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerTests.swift */,
+			);
+			path = "DesignoCare Intelligent ThermometerTests";
+			sourceTree = "<group>";
+		};
+		4912A8E4283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4912A8E5283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITests.swift */,
+				4912A8E7283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift */,
+			);
+			path = "DesignoCare Intelligent ThermometerUITests";
+			sourceTree = "<group>";
+		};
+		499A05FF283E789100E45BF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49B09D6C283E766F00CDDD9B /* ContentView.swift */,
+				49D9096B283E35A70006E5BD /* CircleImage.swift */,
+				49D9096D283E522C0006E5BD /* MapView.swift */,
+				499A0602283E791A00E45BF4 /* LandmarkRow.swift */,
+				49F420BD283F5463004AE9E3 /* LandmarkList.swift */,
+				49D756082841D44D00347E39 /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		499A0600283E78B900E45BF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49B09D6A283E75BE00CDDD9B /* ModelData.swift */,
+				49B09D68283E734B00CDDD9B /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		499A0601283E78D700E45BF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				499A05FD283E77CA00E45BF4 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4912A8C6283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4912A8EB283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent Thermometer" */;
+			buildPhases = (
+				4912A8C3283CD48C00DD6D16 /* Sources */,
+				4912A8C4283CD48C00DD6D16 /* Frameworks */,
+				4912A8C5283CD48C00DD6D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesignoCare Intelligent Thermometer";
+			productName = "DesignoCare Intelligent Thermometer";
+			productReference = 4912A8C7283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4912A8D6283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4912A8EE283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent ThermometerTests" */;
+			buildPhases = (
+				4912A8D3283CD48F00DD6D16 /* Sources */,
+				4912A8D4283CD48F00DD6D16 /* Frameworks */,
+				4912A8D5283CD48F00DD6D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4912A8D9283CD48F00DD6D16 /* PBXTargetDependency */,
+			);
+			name = "DesignoCare Intelligent ThermometerTests";
+			productName = "DesignoCare Intelligent ThermometerTests";
+			productReference = 4912A8D7283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4912A8E0283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4912A8F1283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent ThermometerUITests" */;
+			buildPhases = (
+				4912A8DD283CD48F00DD6D16 /* Sources */,
+				4912A8DE283CD48F00DD6D16 /* Frameworks */,
+				4912A8DF283CD48F00DD6D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4912A8E3283CD48F00DD6D16 /* PBXTargetDependency */,
+			);
+			name = "DesignoCare Intelligent ThermometerUITests";
+			productName = "DesignoCare Intelligent ThermometerUITests";
+			productReference = 4912A8E1283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4912A8BF283CD48C00DD6D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4912A8C6283CD48C00DD6D16 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4912A8D6283CD48F00DD6D16 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4912A8C6283CD48C00DD6D16;
+					};
+					4912A8E0283CD48F00DD6D16 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4912A8C6283CD48C00DD6D16;
+					};
+				};
+			};
+			buildConfigurationList = 4912A8C2283CD48C00DD6D16 /* Build configuration list for PBXProject "DesignoCare Intelligent Thermometer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4912A8BE283CD48C00DD6D16;
+			productRefGroup = 4912A8C8283CD48C00DD6D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4912A8C6283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */,
+				4912A8D6283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerTests */,
+				4912A8E0283CD48F00DD6D16 /* DesignoCare Intelligent ThermometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4912A8C5283CD48C00DD6D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4912A8D2283CD48F00DD6D16 /* Preview Assets.xcassets in Resources */,
+				4912A8CF283CD48F00DD6D16 /* Assets.xcassets in Resources */,
+				499A05FE283E77CA00E45BF4 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8D5283CD48F00DD6D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8DF283CD48F00DD6D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4912A8C3283CD48C00DD6D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D9096E283E522C0006E5BD /* MapView.swift in Sources */,
+				4912A8CB283CD48C00DD6D16 /* DesignoCare_Intelligent_ThermometerApp.swift in Sources */,
+				49B09D6D283E766F00CDDD9B /* ContentView.swift in Sources */,
+				49F420BE283F5463004AE9E3 /* LandmarkList.swift in Sources */,
+				49D756092841D44D00347E39 /* LandmarkDetail.swift in Sources */,
+				49D9096C283E35A70006E5BD /* CircleImage.swift in Sources */,
+				49B09D69283E734B00CDDD9B /* Landmark.swift in Sources */,
+				499A0603283E791A00E45BF4 /* LandmarkRow.swift in Sources */,
+				49B09D6B283E75BE00CDDD9B /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8D3283CD48F00DD6D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4912A8DC283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4912A8DD283CD48F00DD6D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4912A8E8283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITestsLaunchTests.swift in Sources */,
+				4912A8E6283CD48F00DD6D16 /* DesignoCare_Intelligent_ThermometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4912A8D9283CD48F00DD6D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4912A8C6283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */;
+			targetProxy = 4912A8D8283CD48F00DD6D16 /* PBXContainerItemProxy */;
+		};
+		4912A8E3283CD48F00DD6D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4912A8C6283CD48C00DD6D16 /* DesignoCare Intelligent Thermometer */;
+			targetProxy = 4912A8E2283CD48F00DD6D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4912A8E9283CD48F00DD6D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4912A8EA283CD48F00DD6D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4912A8EC283CD48F00DD6D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignoCare Intelligent Thermometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-Thermometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4912A8ED283CD48F00DD6D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignoCare Intelligent Thermometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-Thermometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4912A8EF283CD48F00DD6D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-ThermometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignoCare Intelligent Thermometer.app/DesignoCare Intelligent Thermometer";
+			};
+			name = Debug;
+		};
+		4912A8F0283CD48F00DD6D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-ThermometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignoCare Intelligent Thermometer.app/DesignoCare Intelligent Thermometer";
+			};
+			name = Release;
+		};
+		4912A8F2283CD48F00DD6D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-ThermometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DesignoCare Intelligent Thermometer";
+			};
+			name = Debug;
+		};
+		4912A8F3283CD48F00DD6D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 589MJAJWHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "abc.DesignoCare-Intelligent-ThermometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DesignoCare Intelligent Thermometer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4912A8C2283CD48C00DD6D16 /* Build configuration list for PBXProject "DesignoCare Intelligent Thermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4912A8E9283CD48F00DD6D16 /* Debug */,
+				4912A8EA283CD48F00DD6D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4912A8EB283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent Thermometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4912A8EC283CD48F00DD6D16 /* Debug */,
+				4912A8ED283CD48F00DD6D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4912A8EE283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent ThermometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4912A8EF283CD48F00DD6D16 /* Debug */,
+				4912A8F0283CD48F00DD6D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4912A8F1283CD48F00DD6D16 /* Build configuration list for PBXNativeTarget "DesignoCare Intelligent ThermometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4912A8F2283CD48F00DD6D16 /* Debug */,
+				4912A8F3283CD48F00DD6D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4912A8BF283CD48C00DD6D16 /* Project object */;
+}
